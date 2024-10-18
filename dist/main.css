@@ -1,4 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+  --PattensBlue: #d5e1ef;
+  --white: #ffffff;
+  --SlateGrey: #68778d;
+  --CatalinaBlue: #1f3251;
+  --mobileSize: 375px;
+  --desktopSize: 1440px;
+  --light: 300;
+  --regular: 400;
+  --medium: 500;
+  --bold: 700;
+}
+
 body {
   font-family: "Outfit", sans-serif;
   font-weight: var(--regular);

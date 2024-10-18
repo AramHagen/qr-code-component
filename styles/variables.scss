@@ -1,15 +1,18 @@
-//colors---------------
-  $PattensBlue: #d5e1ef;
-  $white: #ffffff;
-  $SlateGrey: #68778d;
-  $CatalinaBlue: #1f3251;
+:root {
+  //colors---------------
+  --PattensBlue: #d5e1ef;
+  --white: #ffffff;
+  --SlateGrey: #68778d;
+  --CatalinaBlue: #1f3251;
 
   //breakpoints------------
-  $mobileSize: 375px;
-  $desktopSize: 1440px;
+  --mobileSize: 375px;
+  --desktopSize: 1440px;
 
   //font weight--------------------
-  $light: 300;
-  $regular: 400;
-  $medium: 500;
-  $bold: 700;
+  --light: 300;
+  --regular: 400;
+  --medium: 500;
+
+  --bold: 700;
+}
