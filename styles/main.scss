@@ -1,0 +1,9 @@
+/* You can add global styles to this file, and also import other style files */
+@use './variables.scss' as *;
+
+body{
+    font-family: "Outfit", sans-serif;
+    font-weight: var(--regular);
+    background-color: var(--PattensBlue);
+    font-size: 15px;
+}
