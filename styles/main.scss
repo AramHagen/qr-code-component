@@ -8,9 +8,9 @@ body {
   background-color: var(--PattensBlue);
   font-size: 15px;
   margin: 0;
-  display: grid;
-  grid-template-rows: 1fr auto;
   height: 100vh;
+  display: grid;
+  color: var(--CatalinaBlue);
 }
 .qr-container {
   display: grid;
@@ -21,7 +21,7 @@ body {
   background-color: var(--white);
   border-radius: 0.7rem;
   width: 90vw;
-  padding: 1rem 1rem 2rem;
+  padding: 1rem 1rem 2.5rem;
   max-width: 320px;
   box-sizing: border-box;
   text-align: center;
@@ -32,18 +32,22 @@ body {
   }
   &__title {
     font-size: 1.4rem;
-    padding: 1.5rem 0 1rem;
+    padding: 1.6rem 0 1rem;
     font-weight: bold !important;
   }
   &__description {
     color: var(--SlateGrey);
-    margin:0 .5rem
+    letter-spacing: .2px;
   }
 }
 .attribution {
   font-size: 11px;
   text-align: center;
   padding: 0.5rem 0;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
 .attribution a {
   color: var(--CatalinaBlue);
