@@ -18,40 +18,26 @@ body {
   align-items: center;
 }
 .qr-box {
-  display: grid;
-  grid-template-rows: 2fr 1fr;
   background-color: var(--white);
   border-radius: 0.7rem;
-  height: 60vh;
   width: 90vw;
-  padding: 1rem;
-  row-gap: 1rem;
+  padding: 1rem 1rem 2rem;
   max-width: 320px;
   box-sizing: border-box;
-  &__content {
-    text-align: center;
-    padding: 1rem;
+  text-align: center;
+  &__image {
+    width: 100%;
+    border-radius: .7rem;
+    object-fit: cover;
   }
   &__title {
     font-size: 1.4rem;
-    padding-bottom: 1rem;
+    padding: 1.5rem 0 1rem;
     font-weight: bold !important;
   }
   &__description {
     color: var(--SlateGrey);
-  }
-  figure {
-    width: 100%;
-    height: auto;
-    overflow: hidden;
-    border-radius: 0.5rem;
-    margin: 0;
-
-    .qr-image {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-      }
+    margin:0 .5rem
   }
 }
 .attribution {
