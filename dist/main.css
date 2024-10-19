@@ -210,10 +210,13 @@ body {
   font-size: 1.4rem;
   padding: 1.5rem 0 1rem;
   font-weight: bold !important;
+  line-height: 1.2;
 }
 .qr-box__description {
   color: var(--SlateGrey);
   letter-spacing: 0.2px;
+  margin-inline: 1rem;
+  line-height: 1.4;
 }
 
 .attribution {
