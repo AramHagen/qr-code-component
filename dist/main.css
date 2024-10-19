@@ -196,7 +196,7 @@ body {
   background-color: var(--white);
   border-radius: 0.7rem;
   width: 90vw;
-  padding: 1rem 1rem 2.5rem;
+  padding: 1rem 1rem 2.6rem;
   max-width: 320px;
   box-sizing: border-box;
   text-align: center;
@@ -208,7 +208,7 @@ body {
 }
 .qr-box__title {
   font-size: 1.4rem;
-  padding: 1.6rem 0 1rem;
+  padding: 1.5rem 0 1rem;
   font-weight: bold !important;
 }
 .qr-box__description {
