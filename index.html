@@ -3,26 +3,29 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
+    <meta name="description" content="A QR code component challenge from Frontend Mentor. Improve your front-end skills by building interactive web projects." />
+
+    <!-- Preconnect and Preload for improved font loading performance -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./images/favicon-32x32.png"
-    />
-    <title>Frontend Mentor | QR code component</title>
-    <link rel="stylesheet" href="dist/main.css" />
-  </head>
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" as="style" onload="this.rel='stylesheet'">
+    <noscript>
+        <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    </noscript>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+
+    <title>QR Code Component Challenge | Frontend Mentor</title>
+
+    <!-- Link to main CSS, loaded asynchronously -->
+    <link rel="stylesheet" href="dist/main.css" media="print" onload="this.media='all'" />
+</head>
+
   <body>
     <main class="qr-container">
       <div class="qr-box">
-        <img class="qr-box__image" src="images/image-qr-code.png" alt="qr-code" />
+        <img class="qr-box__image" src="images/image-qr-code.png" width="100%" height="auto" alt="QR code for Frontend Mentor challenge to improve coding skills" />
         <h1 class="qr-box__title">
           Improve your-front-end skills by building projects
         </h1>
@@ -38,5 +41,23 @@
         >Frontend Mentor</a
       >. Coded by <a href="#">Aram Hagen</a>.
     </div>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "headline": "QR Code Component Challenge",
+        "description": "A QR code component challenge from Frontend Mentor to improve front-end skills.",
+        "author": {
+          "@type": "Person",
+          "name": "Aram Hagen"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Frontend Mentor"
+        },
+        "mainEntityOfPage": "https://www.frontendmentor.io",
+        "image": "https://yourwebsite.com/images/image-qr-code.png"
+      }
+    </script>    
   </body>
 </html>
